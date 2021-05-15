@@ -1,0 +1,58 @@
+{
+  "name": "emiketic-starter-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "postinstall": "husky install",
+    "develop": "NODE_ENV=development strapi develop",
+    "start": "NODE_ENV=development strapi start",
+    "lint-check": "eslint --ext .js --ext .jsx ./",
+    "lint-fix": "eslint --ext .js --ext .jsx ./ --fix",
+    "format-check": "prettier --check \"**/*.{js,jsx,json}\"",
+    "format-fix": "prettier --write \"**/*.{js,jsx,json}\"",
+    "release": "standard-version",
+    "release-minor": "standard-version --release-as minor",
+    "release-major": "standard-version --release-as major",
+    "release-dry": "standard-version --dry-run",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.26.0",
+    "eslint-plugin-import": "^2.23.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "husky": "^6.0.0",
+    "prettier": "^2.3.0",
+    "standard-version": "^9.3.0"
+  },
+  "dependencies": {
+    "knex": "0.21.18",
+    "pg": "^8.6.0",
+    "sqlite3": "5.0.0",
+    "strapi": "3.6.2",
+    "strapi-admin": "3.6.2",
+    "strapi-connector-bookshelf": "3.6.2",
+    "strapi-plugin-content-manager": "3.6.2",
+    "strapi-plugin-content-type-builder": "3.6.2",
+    "strapi-plugin-email": "3.6.2",
+    "strapi-plugin-i18n": "3.6.2",
+    "strapi-plugin-upload": "3.6.2",
+    "strapi-plugin-users-permissions": "3.6.2",
+    "strapi-utils": "3.6.2"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "df553429-c37b-4349-931f-a985545aa890"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}

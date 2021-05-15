@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+
+# cache
+.cache
+build
+
+# testing
+/coverage
+
+# misc
+.DS_Store
+
+yarn-debug.log*
+yarn-error.log*
