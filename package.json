@@ -1,8 +1,25 @@
 {
   "name": "emiketic-starter-strapi",
   "private": true,
-  "version": "0.1.0",
-  "description": "A Strapi application",
+  "version": "0.0.0",
+  "description": "Strapi starter with middleware / plugin additions and essential EMIKETIC JavaScript conventions",
+  "repository": "git@github.com:emiketic/emiketic-starter-react-native.git",
+  "author": "EMIKETIC Technologies <contact@emiketic.com>",
+  "license": "MIT",
+  "homepage": "https://www.emiketic.com",
+  "keywords": [
+    "strapi",
+    "starter",
+    "nodejs",
+    "headless",
+    "cms",
+    "koa",
+    "emiketic"
+  ],
+  "bugs": {
+    "url": "https://github.com/emiketic/emiketic-starter-strapi/issues",
+    "email": "contact@emiketic.com"
+  },
   "scripts": {
     "postinstall": "husky install",
     "develop": "NODE_ENV=development strapi develop",
@@ -44,15 +61,11 @@
     "strapi-plugin-users-permissions": "3.6.2",
     "strapi-utils": "3.6.2"
   },
-  "author": {
-    "name": "A Strapi developer"
-  },
   "strapi": {
     "uuid": "df553429-c37b-4349-931f-a985545aa890"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
     "npm": "^6.0.0"
-  },
-  "license": "MIT"
+  }
 }
