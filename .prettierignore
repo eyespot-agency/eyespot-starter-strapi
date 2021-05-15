@@ -9,6 +9,7 @@ build
 /coverage
 
 # misc
+.strapi-updater.json
 .DS_Store
 
 yarn-debug.log*
