@@ -1,7 +1,7 @@
 {
   "name": "emiketic-starter-strapi",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Strapi starter with middleware / plugin additions and essential EMIKETIC JavaScript conventions",
   "repository": "git@github.com:emiketic/emiketic-starter-react-native.git",
   "author": "EMIKETIC Technologies <contact@emiketic.com>",
