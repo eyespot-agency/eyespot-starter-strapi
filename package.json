@@ -36,30 +36,30 @@
     "strapi": "strapi"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.26.0",
-    "eslint-plugin-import": "^2.23.1",
-    "eslint-plugin-prettier": "^3.4.0",
-    "husky": "^6.0.0",
-    "prettier": "^2.3.0",
-    "standard-version": "^9.3.0"
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-prettier": "^3.4.1",
+    "husky": "^7.0.2",
+    "prettier": "^2.3.2",
+    "standard-version": "^9.3.1"
   },
   "dependencies": {
-    "knex": "0.21.18",
-    "pg": "^8.6.0",
-    "sqlite3": "5.0.0",
-    "strapi": "3.6.2",
-    "strapi-admin": "3.6.2",
-    "strapi-connector-bookshelf": "3.6.2",
-    "strapi-plugin-content-manager": "3.6.2",
-    "strapi-plugin-content-type-builder": "3.6.2",
-    "strapi-plugin-email": "3.6.2",
-    "strapi-plugin-i18n": "3.6.2",
-    "strapi-plugin-upload": "3.6.2",
-    "strapi-plugin-users-permissions": "3.6.2",
-    "strapi-utils": "3.6.2"
+    "knex": "0.95.10",
+    "pg": "^8.7.1",
+    "sqlite3": "5.0.2",
+    "strapi": "3.6.8",
+    "strapi-admin": "3.6.8",
+    "strapi-connector-bookshelf": "3.6.8",
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-utils": "3.6.8"
   },
   "strapi": {
     "uuid": "df553429-c37b-4349-931f-a985545aa890"
