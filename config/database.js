@@ -4,12 +4,14 @@ module.exports = ({ env }) => ({
     default: {
       connector: 'bookshelf',
       settings: {
-        client: 'sqlite',
-        filename: env('DATABASE_FILENAME', '.tmp/data.db'),
+        client: 'postgres',
+        host: env('DATABASE_HOST'),
+        database: env('DATABASE_NAME'),
+        username: env('DATABASE_USERNAME'),
+        password: env('DATABASE_PASSWORD'),
+        ssl: env.bool('DATABASE_SSL'),
       },
-      options: {
-        useNullAsDefault: true,
-      },
+      options: {},
     },
   },
 });
