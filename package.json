@@ -35,37 +35,28 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {
-    "@commitlint/cli": "^13.1.0",
-    "@commitlint/config-conventional": "^13.1.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.32.0",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.2",
-    "prettier": "^2.3.2",
-    "standard-version": "^9.3.1"
-  },
   "dependencies": {
-    "knex": "0.95.11",
-    "pg": "^8.7.1",
-    "sqlite3": "5.0.2",
-    "strapi": "3.6.8",
-    "strapi-admin": "3.6.8",
-    "strapi-connector-bookshelf": "3.6.8",
-    "strapi-plugin-content-manager": "3.6.8",
-    "strapi-plugin-content-type-builder": "3.6.8",
-    "strapi-plugin-email": "3.6.8",
-    "strapi-plugin-i18n": "3.6.8",
-    "strapi-plugin-upload": "3.6.8",
-    "strapi-plugin-users-permissions": "3.6.8",
-    "strapi-utils": "3.6.8"
+    "@strapi/plugin-i18n": "4.0.8",
+    "@strapi/plugin-users-permissions": "4.0.8",
+    "@strapi/strapi": "4.0.8",
+    "knex": "^1.0.3",
+    "pg": "^8.7.3",
+    "strapi-connector-bookshelf": "^3.6.8"
   },
-  "strapi": {
-    "uuid": "df553429-c37b-4349-931f-a985545aa890"
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.9.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1",
+    "standard-version": "^9.3.2"
   },
+  "strapi": {},
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
-    "npm": "^6.0.0"
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
   }
 }
