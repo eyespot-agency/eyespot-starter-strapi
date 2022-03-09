@@ -1,0 +1,22 @@
+{
+  "rolePermissions": [
+    {
+      "roleName": "Manager",
+      "permissions": [
+        {
+          "collection": "dummy",
+          "actions": ["find", "create", "update"]
+        }
+      ]
+    },
+    {
+      "roleName": "Employee",
+      "permissions": [
+        {
+          "collection": "dummy",
+          "actions": ["find", "delete"]
+        }
+      ]
+    }
+  ]
+}

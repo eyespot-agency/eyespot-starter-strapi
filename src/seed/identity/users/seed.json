@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "firstName": "John",
+      "lastName": "Doe",
+      "username": "jdoe",
+      "email": "john@acme.com",
+      "password": "Acme123",
+      "roleName": "Manager"
+    },
+    {
+      "firstName": "Albert",
+      "lastName": "Einstein",
+      "username": "aeinstein",
+      "email": "albert@acme.com",
+      "password": "Acme123",
+      "roleName": "Employee"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "roles": [
+    {
+      "name": "Manager",
+      "description": "Sample manager role, different from the Strapi admdin rle"
+    },
+    {
+      "name": "Employee",
+      "description": "Sample employee user role"
+    }
+  ]
+}
