@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_layout_headers",
+  "info": {
+    "displayName": "header",
+    "icon": "ruler-combined"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "allowedTypes": ["images"],
+      "type": "media",
+      "multiple": false
+    },
+    "menuItems": {
+      "type": "json"
+    },
+    "tagline": {
+      "type": "string"
+    }
+  }
+}
