@@ -30,23 +30,13 @@ Strapi starter reflecting the EMIKETIC standards and conventions.
 
 - Run `yarn`
 - After dependency installation, run `yarn develop` (local development mode)
-
-```shell
-# create a new Gatsby site using the Eyespot starter
-gatsby new website-repo-slug-name https://github.com/eyespot-agency/eyespot-starter-gatsby
-```
-
-Start website in developer mode
-
-```shell
-cd website-repo-slug-name/
-yarn start # or gatsby develop
-```
+- Change permissions for the local database reset script in order to easily and productivly reset projects: `chmod +x ./scripts/db-reset.sh`
 
 **Important notes**
 
 - Although Strapi comes with `sqlite` for local development, we do not use it at EMIKETIC
 - When adding dependencies or updating them, use `yarn` and not `npm`
+- Change permissions for the local database reset script in order to easily and productivly reset projects: `chmod +x ./scripts/db-reset.sh`
 
 # Folder structure
 

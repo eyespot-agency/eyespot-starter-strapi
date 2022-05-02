@@ -1,23 +1,3 @@
-'use strict';
-
-module.exports = {
-  /**
-   * An asynchronous register function that runs before
-   * your application is initialized.
-   *
-   * This gives you an opportunity to extend code.
-   */
-  register(/*{ strapi }*/) {},
-
-  /**
-   * An asynchronous bootstrap function that runs before
-   * your application gets started.
-   *
-   * This gives you an opportunity to set up your data model,
-   * run jobs, or perform some special logic.
-   */
-  bootstrap(/*{ strapi }*/) {},
-};
 /* -------------------------------------------------------------------------- */
 /*                                Dependencies                                */
 /* -------------------------------------------------------------------------- */
@@ -25,7 +5,7 @@ module.exports = {
 // Seed functions
 const seedRoles = require('./seed/identity/roles');
 const seedPermissions = require('./seed/identity/permissions');
-const seedUsers = require('./seed/identity/users');
+const { seedSuperAdmin, seedUsers } = require('./seed/identity/users');
 
 // Constants
 const SeedMode = {
@@ -70,7 +50,10 @@ module.exports = {
     if (seedScopeUserRoles.includes(process.env.DB_SEED_MODE)) {
       await seedRoles({ strapi });
       await seedPermissions({ strapi });
-      await seedUsers({ strapi });
+      await seedSuperAdmin({ strapi });
+      if (process.env.DB_SEED_MODE === SeedMode.MOCKS) {
+        await seedUsers({ strapi });
+      }
     }
   },
 
