@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/eyespot-agency/eyespot-starter-strapi/compare/v1.3.0...v1.3.1) (2022-08-09)
+
+
+### Bug Fixes
+
+* Update docs/meta ([c59160e](https://github.com/eyespot-agency/eyespot-starter-strapi/commit/c59160eabb583dea13b56eb013a01e448af3600b))
+
 ## [1.3.0](https://github.com/emiketic/emiketic-starter-react-native/compare/v1.2.0...v1.3.0) (2022-08-09)
 
 
