@@ -1,12 +1,12 @@
 {
-  "name": "emiketic-starter-strapi",
+  "name": "eyespot-starter-strapi",
   "private": true,
   "version": "1.3.0",
-  "description": "Strapi starter with middleware / plugin additions and essential EMIKETIC JavaScript conventions",
-  "repository": "git@github.com:emiketic/emiketic-starter-react-native.git",
+  "description": "Strapi starter with middleware / plugin additions and essential Eyespot JavaScript conventions",
+  "repository": "git@github.com:eyespot-agency/eyespot-starter-strapi.git",
   "author": "EMIKETIC Technologies <contact@emiketic.com>",
   "license": "MIT",
-  "homepage": "https://www.emiketic.com",
+  "homepage": "https://www.eyespot.agency",
   "keywords": [
     "strapi",
     "starter",
@@ -14,10 +14,11 @@
     "headless",
     "cms",
     "koa",
+    "eyespot",
     "emiketic"
   ],
   "bugs": {
-    "url": "https://github.com/emiketic/emiketic-starter-strapi/issues",
+    "url": "https://github.com/eyespot-agency/eyespot-starter-strapi/issues",
     "email": "contact@emiketic.com"
   },
   "scripts": {

@@ -1,8 +1,8 @@
 <h1 align="center">
-  EMIKETIC Starter Strapi
+  Eyespot Starter Strapi
 </h1>
 
-Strapi starter reflecting the EMIKETIC standards and conventions.
+Strapi starter reflecting the Eyespot standards and conventions.
 
 # Essential rules
 
@@ -34,7 +34,7 @@ Strapi starter reflecting the EMIKETIC standards and conventions.
 
 **Important notes**
 
-- Although Strapi comes with `sqlite` for local development, we do not use it at EMIKETIC
+- Although Strapi comes with `sqlite` for local development, we do not use it at Eyespot
 - When adding dependencies or updating them, use `yarn` and not `npm`
 - Change permissions for the local database reset script in order to easily and productivly reset projects: `chmod +x ./scripts/db-reset.sh`
 
