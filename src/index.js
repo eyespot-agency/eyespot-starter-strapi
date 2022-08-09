@@ -56,11 +56,15 @@ module.exports = {
       }
     }
     // Add and set french as default locale
-    const where = { key: 'plugin_i18n_default_locale' };
-    await strapi.db.query('strapi::core-store').update({
-      where,
-      data: { value: '"fr"' },
-    });
+    // @TODO: This implementation causes issues on the admin panel
+    // const where = { key: 'plugin_i18n_default_locale' };
+    // const i18nDefaultLocalecConf = await strapi.db
+    //   .query('strapi::core-store')
+    //   .findOne({ where });
+    // await strapi.db.query('strapi::core-store').update({
+    //   where,
+    //   data: { ...i18nDefaultLocalecConf, value: '"fr"' },
+    // });
   },
 
   /**

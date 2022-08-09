@@ -5,7 +5,7 @@
       "permissions": [
         {
           "collection": "page",
-          "actions": ["find"]
+          "actions": ["find", "findOne"]
         }
       ]
     },

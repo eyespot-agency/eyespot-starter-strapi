@@ -4,7 +4,8 @@
   "info": {
     "singularName": "page",
     "pluralName": "pages",
-    "displayName": "Page"
+    "displayName": "Page",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -53,14 +54,6 @@
       },
       "type": "dynamiczone",
       "components": ["layout.header", "layout.footer"]
-    },
-    "publish_at": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "datetime"
     }
   }
 }
