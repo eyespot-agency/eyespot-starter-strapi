@@ -39,30 +39,29 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.9",
-    "@strapi/plugin-users-permissions": "4.1.9",
-    "@strapi/strapi": "4.1.9",
-    "@strapi/utils": "^4.1.9",
+    "@strapi/plugin-i18n": "4.3.2",
+    "@strapi/plugin-users-permissions": "4.3.2",
+    "@strapi/strapi": "4.3.2",
+    "@strapi/utils": "4.3.2",
     "fs": "^0.0.1-security",
     "knex": "^2.0.0",
     "lodash": "^4.17.21",
-    "pg": "^8.7.3",
-    "strapi-connector-bookshelf": "^3.6.8"
+    "pg": "^8.7.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.1",
-    "@commitlint/config-conventional": "^16.2.1",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
     "babel-eslint": "^10.1.0",
     "eslint": "^8.10.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-prettier": "^4.0.0",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "prettier": "^2.5.1",
     "standard-version": "^9.3.2"
   },
   "strapi": {},
   "engines": {
-    "node": ">=12.x.x <=16.x.x",
+    "node": ">=14.19.1 <=16.x.x",
     "npm": ">=6.0.0"
   }
 }
