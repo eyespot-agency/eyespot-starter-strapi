@@ -11,7 +11,7 @@ module.exports = async ({ strapi }) => {
     // Load existing roles
     const existingRoles = await strapi.plugins[
       'users-permissions'
-    ].services.role.getRoles();
+    ].services.role.find();
 
     // Filter valid roles
     const mappedRoles = existingRoles.filter((r) =>
@@ -24,7 +24,7 @@ module.exports = async ({ strapi }) => {
         // Load permission correspondant role
         const permissionRole = await strapi.plugins[
           'users-permissions'
-        ].services.role.getRole(
+        ].services.role.findOne(
           mappedRoles.find((r) => r.name === rp.roleName).id,
         );
 

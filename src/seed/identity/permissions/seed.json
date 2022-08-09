@@ -1,6 +1,15 @@
 {
   "rolePermissions": [
     {
+      "roleName": "Public",
+      "permissions": [
+        {
+          "collection": "page",
+          "actions": ["find"]
+        }
+      ]
+    },
+    {
       "roleName": "Manager",
       "permissions": [
         {

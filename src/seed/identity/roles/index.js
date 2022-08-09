@@ -10,7 +10,7 @@ module.exports = async ({ strapi }) => {
   try {
     const existingRoles = await strapi.plugins[
       'users-permissions'
-    ].services.role.getRoles();
+    ].services.role.find();
     await Promise.all(
       roles
         // Discard roles by name manually because the `users-permissions`

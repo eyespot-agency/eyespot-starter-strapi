@@ -15,7 +15,7 @@ module.exports = async ({ strapi }) => {
     // Load all existing roles
     const existingRoles = await strapi.plugins[
       'users-permissions'
-    ].services.role.getRoles();
+    ].services.role.find();
 
     // Load all existing users
     const existingUsers = await strapi.plugins[
